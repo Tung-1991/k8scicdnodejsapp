@@ -1,0 +1,4 @@
+echo "export PS1=\"\[\e[92m\]\u@\h:\w\\$\[\e[m\]\"" >> ~/.bashrc && source ~/.bashrc
+echo "alias k='kubectl'" >> ~/.bashrc && source ~/.bashrc
+
+sudo apt update && sudo apt upgrade -y
