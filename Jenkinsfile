@@ -17,7 +17,7 @@ pipeline {
                     git fetch --all
                     git reset --hard origin/main
                 fi
-                cd /home/vagrant/nodejs-demo-k8s/
+                cd /home/vagrant/nodejs-demo-k8s/nodejs-demo-k8s
                 bash build.sh
                 bash cleanimage.sh
                 EOF
