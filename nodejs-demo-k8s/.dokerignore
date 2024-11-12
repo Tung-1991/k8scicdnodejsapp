@@ -1,5 +1,8 @@
-helmchart
-kubernetes
+app-demo
+app-demo-value.yaml
 my-nodejs-app-*.tar
 build.sh
+cleanimage.sh
+deployment.yaml
 VERSION
+.dockerignore
