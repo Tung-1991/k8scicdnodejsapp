@@ -9,7 +9,7 @@ pipeline {
         stage('Update Source and Run Scripts on Machine B') {
             steps {
                 sh '''
-                sshpass -p 'vagrant' ssh -o StrictHostKeyChecking=no vagrant@192.168.42.114 << EOF
+                sshpass -p 'vagrant' ssh -o StrictHostKeyChecking=no vagrant@192.168.42.114 <<EOF
                 if [ ! -d "/home/vagrant/nodejs-demo-k8s/" ]; then
                     git clone -b main https://github.com/Tung-1991/k8scicdnodejsapp.git /home/vagrant/nodejs-demo-k8s/
                 else
