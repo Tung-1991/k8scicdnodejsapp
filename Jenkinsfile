@@ -18,7 +18,7 @@ pipeline {
                         git fetch --all
                         git reset --hard origin/main
                     fi
-                    cd /home/vagrant/nodejs-demo-k8s
+                    cd /home/vagrant/nodejs-demo-k8s/nodejs-demo-k8s
                     bash build.sh
                     bash cleanimage.sh
                     '
@@ -31,7 +31,7 @@ pipeline {
                 sh '''
                 sudo -u vagrant bash -c "
                 cd $WORKSPACE/nodejs-demo-k8s/
-                helm upgrade --install app-demo ./app-demo --set image.tag=v$(cat /nodejs-demo-k8s/VERSION) -f app-demo-value.yaml
+                helm upgrade --install app-demo ./app-demo --set image.tag=v$(cat /var/lib/jenkins/workspace/k8snode/nodejs-demo-k8s/VERSION) -f app-demo-value.yaml
                 "
                 '''
             }
