@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rockman88v/nodejs-demo-k8s.git"
+    "url": "git+https://github.com/Tung-1991/k8scicdnodejsapp.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rockman88v/nodejs-demo-k8s/issues"
+    "url": "https://github.com/Tung-1991/k8scicdnodejsapp.git/issues"
   },
-  "homepage": "https://github.com/rockman88v/nodejs-demo-k8s#readme"
+  "homepage": "https://github.com/Tung-1991/k8scicdnodejsapp.git#readme"
 }

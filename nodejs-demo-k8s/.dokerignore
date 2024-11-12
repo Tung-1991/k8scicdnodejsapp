@@ -1,0 +1,5 @@
+helmchart
+kubernetes
+my-nodejs-app-*.tar
+build.sh
+VERSION
