@@ -6,3 +6,4 @@ cleanimage.sh
 deployment.yaml
 VERSION
 .dockerignore
+Dockerfile
