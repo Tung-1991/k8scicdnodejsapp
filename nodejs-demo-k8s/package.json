@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-demo-k8s",
+  "version": "1.0.0",
+  "description": "des",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "~4.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockman88v/nodejs-demo-k8s.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rockman88v/nodejs-demo-k8s/issues"
+  },
+  "homepage": "https://github.com/rockman88v/nodejs-demo-k8s#readme"
+}
