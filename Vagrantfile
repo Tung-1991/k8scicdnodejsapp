@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
     end
   end
 
-#  config.vm.define "jammy" do |jammy|
+#  config.vm.define "jammy" do |jammy|1
 #    jammy.vm.box = "generic/ubuntu2204"
 #    jammy.vm.hostname = "jammy"
 #    jammy.vm.network "private_network", ip: "192.168.42.114"
